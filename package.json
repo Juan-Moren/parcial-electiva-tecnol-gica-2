@@ -1,0 +1,31 @@
+{
+  "name": "parcial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "build": "babel src --out-dir dist --copy-files",
+    "test": "jest --coverage --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juan-Moren/Parcial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Juan-Moren/Parcial/issues"
+  },
+  "homepage": "https://github.com/Juan-Moren/Parcial#readme",
+  "devDependencies": {
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "babel-jest": "^30.2.0",
+    "eslint": "^9.39.1",
+    "jest": "^30.2.0",
+    "@babel/cli": "^7.26.4"
+  }
+}
